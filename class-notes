@@ -2,3 +2,44 @@ java is all about class and object
 class is blueprint
 object inherit all class properties
 java is strongly typed language
+
+Father class is a super class of son class
+java doesn't support multiple inheritance - cannot have multiple super class
+inheritance is a mechanism to acquire properties from a class to another class
+
+overloading: in the same class, having the same method name with different number of parameters
+overriding: in the different class that extends to the former class (with @Overriding annotation), having the same method name with same parameters and different body
+
+overloading is happening in compile time
+overriding is happening in run time
+
+final method cannot be overridden
+
+encapsulation is data hiding
+
+abstraction is implementation hiding / road map
+
+we cannot create an instance of interface
+
+interface is a road map for a concrete class. interface is contract between classes
+
+in interface, all the methods are unmplemented, they are all absract methods
+
+concrete class is a full fledge class where all the methods are impelemented
+
+a class can implement multiple interfaces
+
+we cannot create object of abstract class
+
+concrete class can implement more then 1 interface but can extend only 1 abstract class
+
+what is the difference between interface and abstract class ?
+*             interface                          |                     abstract
+* implicitly abstract and can not be implemented | can have instance methods that implements a default behavior
+* variable declared are by default final         | may contain a non-final datatypes
+* members are public by default                  | can have private, protected members
+* uses keyword implements                        | uses keyword extends
+* extends another interface only                 | extends another class and implements multiple interfaces
+* all abstract method and can not be instantiate | can not be instantiated but can be invoked in main()
+* slow                                           | comparatively fast
+

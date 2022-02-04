@@ -29,8 +29,37 @@ do you want to convert other temperatures ? Y/N
 if yes (do again - loop)
 
 if no
--------------------------------Good bye, see you soon---------------------------
+-------------------------------Good bye, see you soon-------------------
 
 Homework2:
 1- recreate all the packages done in in class (class/method/object class/object/constructor static keyword)
 2- create a simple calculator (addition/subtraction/division/multiplication) - PEMDAS
+create method for each function
+
+Homework3:
+shuffle game assignment (array, methods, if statement, loop, recursive method)
+int array = {1, 0 ,1}
+
+important: manage to create method for each function (2 classes - blueprint and main class)
+
+----------------------welcome to shuffle game---------------------
+guess where the 0 is ?
+are you ready to play? y/n
+
+if y:
+shuffle the game
+pick 1, 2 or 3!
+if the answer is not 1, 2 or 3 keep asking the right answer
+if good guess:
+good guess!
+if not good guess:
+sorry!!! wrong guess
+
+do you want to try again? y/n
+if answer is not y/n keep asking the question
+
+if y:
+loop the game
+if n:
+see you next time!
+-------------------------------------------------------------------
