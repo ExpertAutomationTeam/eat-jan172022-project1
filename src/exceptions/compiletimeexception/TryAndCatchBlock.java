@@ -24,16 +24,27 @@ public class TryAndCatchBlock {
             while ((str = br.readLine()) != null){
                 System.out.println(str);
             }
-        }catch (IOException e){
+        }
+        catch (IOException e){
             e.printStackTrace();
         }
-
-
-        try {
-            br.close();
-        } catch (IOException e) {
-            e.printStackTrace();
+        finally {
+            if(fr != null){
+                try{
+                    fr.close();
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
+            }
+            if(br != null){
+                try{
+                    br.close();
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
+            }
         }
+
 
     }
 }

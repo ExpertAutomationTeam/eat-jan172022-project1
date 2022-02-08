@@ -43,3 +43,15 @@ what is the difference between interface and abstract class ?
 * all abstract method and can not be instantiate | can not be instantiated but can be invoked in main()
 * slow                                           | comparatively fast
 
+what is the difference between final, finally and finalize
+
+finalize is a block of code invoked during the garbage collection
+
+garbage collection is when java deletes the unused objects created
+
+Integer is wrapper class of int
+Character is wrapper class of char
+
+what is the difference between list and set
+list is ordered / can accept duplicates
+set is  not ordered / don't accept duplicates

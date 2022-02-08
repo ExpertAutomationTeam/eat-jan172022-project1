@@ -63,3 +63,14 @@ loop the game
 if n:
 see you next time!
 -------------------------------------------------------------------
+
+Homework:
+1- exercise:
+    int [] array1 = { 1, 3, 2, 4, 8, 9, 0 };
+    int [] array2 = { 1, 3, 7, 5, 4, 0, 7, 5 };
+
+    find union of these 2 array
+    find intersection of the 2 arrays
+    find symmetric difference
+
+2- reverse string without using string builder
